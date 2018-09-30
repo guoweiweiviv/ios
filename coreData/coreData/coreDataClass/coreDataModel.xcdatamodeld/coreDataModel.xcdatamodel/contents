@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Table1" representedClassName="Table1" syncable="YES">
+        <attribute name="item1" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="item2" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table2" syncable="YES"/>
+        <relationship name="relationship1" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Table2" syncable="YES"/>
+    </entity>
+    <entity name="Table2" representedClassName="Table2" syncable="YES">
+        <attribute name="xxx" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Table1" positionX="-465.1484375" positionY="-178.63671875" width="128" height="105"/>
+        <element name="Table2" positionX="-54" positionY="9" width="128" height="60"/>
+    </elements>
+</model>
