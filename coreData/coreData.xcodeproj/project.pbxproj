@@ -19,10 +19,10 @@
 		70D5B98D215F50F000B8E0AB /* coredataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B98B215F50F000B8E0AB /* coredataTools.m */; };
 		70D5B9A8215F7EAD00B8E0AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5B9A7215F7EAD00B8E0AB /* CoreData.framework */; };
 		70D5B9B0215F805400B8E0AB /* coreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9AF215F805400B8E0AB /* coreDataViewController.m */; };
-		70D5B9B92160DA1E00B8E0AB /* Table1+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9B32160DA1E00B8E0AB /* Table1+CoreDataClass.m */; };
-		70D5B9BA2160DA1E00B8E0AB /* Table1+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9B42160DA1E00B8E0AB /* Table1+CoreDataProperties.m */; };
-		70D5B9BB2160DA1E00B8E0AB /* Table2+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9B72160DA1E00B8E0AB /* Table2+CoreDataClass.m */; };
-		70D5B9BC2160DA1E00B8E0AB /* Table2+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9B82160DA1E00B8E0AB /* Table2+CoreDataProperties.m */; };
+		70D5B9C52160DBF000B8E0AB /* Table1+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9BF2160DBF000B8E0AB /* Table1+CoreDataClass.m */; };
+		70D5B9C62160DBF000B8E0AB /* Table1+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9C02160DBF000B8E0AB /* Table1+CoreDataProperties.m */; };
+		70D5B9C72160DBF000B8E0AB /* Table2+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9C32160DBF000B8E0AB /* Table2+CoreDataClass.m */; };
+		70D5B9C82160DBF000B8E0AB /* Table2+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9C42160DBF000B8E0AB /* Table2+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +57,14 @@
 		70D5B9A7215F7EAD00B8E0AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		70D5B9A9215F7F9F00B8E0AB /* coreDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coreDataViewController.h; sourceTree = "<group>"; };
 		70D5B9AF215F805400B8E0AB /* coreDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreDataViewController.m; sourceTree = "<group>"; };
-		70D5B9B12160DA1E00B8E0AB /* Table1+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table1+CoreDataProperties.h"; sourceTree = "<group>"; };
-		70D5B9B22160DA1E00B8E0AB /* Table1+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table1+CoreDataClass.h"; sourceTree = "<group>"; };
-		70D5B9B32160DA1E00B8E0AB /* Table1+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table1+CoreDataClass.m"; sourceTree = "<group>"; };
-		70D5B9B42160DA1E00B8E0AB /* Table1+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table1+CoreDataProperties.m"; sourceTree = "<group>"; };
-		70D5B9B52160DA1E00B8E0AB /* Table2+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table2+CoreDataProperties.h"; sourceTree = "<group>"; };
-		70D5B9B62160DA1E00B8E0AB /* Table2+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table2+CoreDataClass.h"; sourceTree = "<group>"; };
-		70D5B9B72160DA1E00B8E0AB /* Table2+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table2+CoreDataClass.m"; sourceTree = "<group>"; };
-		70D5B9B82160DA1E00B8E0AB /* Table2+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table2+CoreDataProperties.m"; sourceTree = "<group>"; };
+		70D5B9BD2160DBEF00B8E0AB /* Table1+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table1+CoreDataProperties.h"; sourceTree = "<group>"; };
+		70D5B9BE2160DBF000B8E0AB /* Table1+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table1+CoreDataClass.h"; sourceTree = "<group>"; };
+		70D5B9BF2160DBF000B8E0AB /* Table1+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table1+CoreDataClass.m"; sourceTree = "<group>"; };
+		70D5B9C02160DBF000B8E0AB /* Table1+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table1+CoreDataProperties.m"; sourceTree = "<group>"; };
+		70D5B9C12160DBF000B8E0AB /* Table2+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table2+CoreDataProperties.h"; sourceTree = "<group>"; };
+		70D5B9C22160DBF000B8E0AB /* Table2+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Table2+CoreDataClass.h"; sourceTree = "<group>"; };
+		70D5B9C32160DBF000B8E0AB /* Table2+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table2+CoreDataClass.m"; sourceTree = "<group>"; };
+		70D5B9C42160DBF000B8E0AB /* Table2+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Table2+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,14 +141,14 @@
 				70D5B973215E187E00B8E0AB /* coreDataModel.xcdatamodeld */,
 				70D5B98C215F50F000B8E0AB /* coredataTools.h */,
 				70D5B98B215F50F000B8E0AB /* coredataTools.m */,
-				70D5B9B22160DA1E00B8E0AB /* Table1+CoreDataClass.h */,
-				70D5B9B32160DA1E00B8E0AB /* Table1+CoreDataClass.m */,
-				70D5B9B12160DA1E00B8E0AB /* Table1+CoreDataProperties.h */,
-				70D5B9B42160DA1E00B8E0AB /* Table1+CoreDataProperties.m */,
-				70D5B9B62160DA1E00B8E0AB /* Table2+CoreDataClass.h */,
-				70D5B9B72160DA1E00B8E0AB /* Table2+CoreDataClass.m */,
-				70D5B9B52160DA1E00B8E0AB /* Table2+CoreDataProperties.h */,
-				70D5B9B82160DA1E00B8E0AB /* Table2+CoreDataProperties.m */,
+				70D5B9BE2160DBF000B8E0AB /* Table1+CoreDataClass.h */,
+				70D5B9BF2160DBF000B8E0AB /* Table1+CoreDataClass.m */,
+				70D5B9BD2160DBEF00B8E0AB /* Table1+CoreDataProperties.h */,
+				70D5B9C02160DBF000B8E0AB /* Table1+CoreDataProperties.m */,
+				70D5B9C22160DBF000B8E0AB /* Table2+CoreDataClass.h */,
+				70D5B9C32160DBF000B8E0AB /* Table2+CoreDataClass.m */,
+				70D5B9C12160DBF000B8E0AB /* Table2+CoreDataProperties.h */,
+				70D5B9C42160DBF000B8E0AB /* Table2+CoreDataProperties.m */,
 			);
 			path = coreDataClass;
 			sourceTree = "<group>";
@@ -263,15 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D5B9B92160DA1E00B8E0AB /* Table1+CoreDataClass.m in Sources */,
+				70D5B9C52160DBF000B8E0AB /* Table1+CoreDataClass.m in Sources */,
 				70D5B975215E187E00B8E0AB /* coreDataModel.xcdatamodeld in Sources */,
-				70D5B9BA2160DA1E00B8E0AB /* Table1+CoreDataProperties.m in Sources */,
+				70D5B9C62160DBF000B8E0AB /* Table1+CoreDataProperties.m in Sources */,
 				70D5B9B0215F805400B8E0AB /* coreDataViewController.m in Sources */,
 				70D5B94E215E147400B8E0AB /* ViewController.m in Sources */,
 				70D5B959215E147D00B8E0AB /* main.m in Sources */,
 				70D5B98D215F50F000B8E0AB /* coredataTools.m in Sources */,
-				70D5B9BC2160DA1E00B8E0AB /* Table2+CoreDataProperties.m in Sources */,
-				70D5B9BB2160DA1E00B8E0AB /* Table2+CoreDataClass.m in Sources */,
+				70D5B9C82160DBF000B8E0AB /* Table2+CoreDataProperties.m in Sources */,
+				70D5B9C72160DBF000B8E0AB /* Table2+CoreDataClass.m in Sources */,
 				70D5B94B215E147400B8E0AB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

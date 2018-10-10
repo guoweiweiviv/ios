@@ -16,5 +16,6 @@
 }
 
 @dynamic xxx;
+@dynamic relationship;
 
 @end

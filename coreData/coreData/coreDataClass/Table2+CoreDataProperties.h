@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSFetchRequest<Table2 *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *xxx;
+@property (nullable, nonatomic, retain) Table1 *relationship;
 
 @end
 

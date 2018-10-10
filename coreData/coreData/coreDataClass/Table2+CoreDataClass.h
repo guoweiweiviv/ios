@@ -10,6 +10,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+@class Table1;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Table2 : NSManagedObject
