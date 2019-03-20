@@ -28,6 +28,11 @@
   [_tool loadDB:@"coreDataModel" stroeFilePath:@"coreDataModel.store"];
   
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tableNotify:) name:NSManagedObjectContextObjectsDidChangeNotification object:nil];
+  
+  UITextView *txtView = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
+  [txtView setBackgroundColor:[UIColor redColor]];
+  [self.tableView setTableFooterView:txtView];
+  [self.tableView setKeyboardDismissMode:UIScrollViewKeyboardDismissModeOnDrag];
 }
 
 
@@ -35,6 +40,15 @@
 {
   [super viewWillAppear:animated];
   [self loadDataFromDB];
+  
+  NSLog(@"%p, %@", self.dict, self.dict);
+  for (id key in [self.dict allKeys]) {
+    NSLog(@"%p", key);
+  }
+  
+  for (id val in [self.dict allValues]) {
+    NSLog(@"%p", val);
+  }
 }
 
 -(void) tableNotify:(NSNotification *)notify
@@ -45,6 +59,7 @@
     NSManagedObject *obj = [data objectForKey:NSInsertedObjectsKey];
     NSLog(@"%@", obj);
   } else if ([[data allKeys] containsObject:NSUpdatedObjectsKey]) {
+    NSArray *arr = [data objectForKey:NSUpdatedObjectsKey];
     
   }
  

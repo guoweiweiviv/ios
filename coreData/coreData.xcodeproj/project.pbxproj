@@ -16,7 +16,7 @@
 		70D5B960215E154B00B8E0AB /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70D5B95F215E154B00B8E0AB /* readme.txt */; };
 		70D5B968215E15EC00B8E0AB /* coreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B967215E15EC00B8E0AB /* coreDataTests.m */; };
 		70D5B975215E187E00B8E0AB /* coreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B973215E187E00B8E0AB /* coreDataModel.xcdatamodeld */; };
-		70D5B98D215F50F000B8E0AB /* coredataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B98B215F50F000B8E0AB /* coredataTools.m */; };
+		70D5B98D215F50F000B8E0AB /* coreDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B98B215F50F000B8E0AB /* coreDataTool.m */; };
 		70D5B9A8215F7EAD00B8E0AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5B9A7215F7EAD00B8E0AB /* CoreData.framework */; };
 		70D5B9B0215F805400B8E0AB /* coreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9AF215F805400B8E0AB /* coreDataViewController.m */; };
 		70D5B9C52160DBF000B8E0AB /* Table1+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5B9BF2160DBF000B8E0AB /* Table1+CoreDataClass.m */; };
@@ -52,8 +52,8 @@
 		70D5B969215E15EC00B8E0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70D5B974215E187E00B8E0AB /* coreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		70D5B98A215E1A3100B8E0AB /* coreData.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = coreData.pch; path = coreDataClass/coreData.pch; sourceTree = "<group>"; };
-		70D5B98B215F50F000B8E0AB /* coredataTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coredataTools.m; sourceTree = "<group>"; };
-		70D5B98C215F50F000B8E0AB /* coredataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coredataTools.h; sourceTree = "<group>"; };
+		70D5B98B215F50F000B8E0AB /* coreDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coreDataTool.m; sourceTree = "<group>"; };
+		70D5B98C215F50F000B8E0AB /* coreDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreDataTool.h; sourceTree = "<group>"; };
 		70D5B9A7215F7EAD00B8E0AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		70D5B9A9215F7F9F00B8E0AB /* coreDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coreDataViewController.h; sourceTree = "<group>"; };
 		70D5B9AF215F805400B8E0AB /* coreDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreDataViewController.m; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				70D5B973215E187E00B8E0AB /* coreDataModel.xcdatamodeld */,
-				70D5B98C215F50F000B8E0AB /* coredataTools.h */,
-				70D5B98B215F50F000B8E0AB /* coredataTools.m */,
+				70D5B98C215F50F000B8E0AB /* coreDataTool.h */,
+				70D5B98B215F50F000B8E0AB /* coreDataTool.m */,
 				70D5B9BE2160DBF000B8E0AB /* Table1+CoreDataClass.h */,
 				70D5B9BF2160DBF000B8E0AB /* Table1+CoreDataClass.m */,
 				70D5B9BD2160DBEF00B8E0AB /* Table1+CoreDataProperties.h */,
@@ -269,7 +269,7 @@
 				70D5B9B0215F805400B8E0AB /* coreDataViewController.m in Sources */,
 				70D5B94E215E147400B8E0AB /* ViewController.m in Sources */,
 				70D5B959215E147D00B8E0AB /* main.m in Sources */,
-				70D5B98D215F50F000B8E0AB /* coredataTools.m in Sources */,
+				70D5B98D215F50F000B8E0AB /* coreDataTool.m in Sources */,
 				70D5B9C82160DBF000B8E0AB /* Table2+CoreDataProperties.m in Sources */,
 				70D5B9C72160DBF000B8E0AB /* Table2+CoreDataClass.m in Sources */,
 				70D5B94B215E147400B8E0AB /* AppDelegate.m in Sources */,
@@ -436,6 +436,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = coreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +459,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = coreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -13,6 +13,8 @@
 #import <UIKit/UIKit.h>
 
 @interface coreDataViewController : UITableViewController
+//浅拷贝
+@property (nonatomic, copy) NSMutableDictionary *dict;
 @end
 
 #endif /* coreDataViewController_h */

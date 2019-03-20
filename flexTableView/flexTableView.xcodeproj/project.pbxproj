@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702B45B521C23BF500840CF7 /* UIMultiLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B45B421C23BF500840CF7 /* UIMultiLineButton.m */; };
+		70395CA621C3405600A68C1F /* flexTableCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 70395CA521C3405600A68C1F /* flexTableCell3.m */; };
+		70732F7721C114B300D6E61C /* flexTableCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 70732F7621C114B300D6E61C /* flexTableCell2.m */; };
+		70A8B1702195765A00EEB30F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8B16F2195765A00EEB30F /* AppDelegate.m */; };
+		70A8B1732195765A00EEB30F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8B1722195765A00EEB30F /* ViewController.m */; };
+		70A8B1762195765A00EEB30F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A8B1742195765A00EEB30F /* Main.storyboard */; };
+		70A8B1782195766300EEB30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A8B1772195766300EEB30F /* Assets.xcassets */; };
+		70A8B17B2195766300EEB30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A8B1792195766300EEB30F /* LaunchScreen.storyboard */; };
+		70A8B17E2195766300EEB30F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8B17D2195766300EEB30F /* main.m */; };
+		70A8B1882195766400EEB30F /* flexTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8B1872195766400EEB30F /* flexTableViewTests.m */; };
+		70A8B193219576B200EEB30F /* flexTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70A8B192219576B200EEB30F /* flexTableCell.xib */; };
+		70A8B1962195785900EEB30F /* table.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8B1952195785900EEB30F /* table.m */; };
+		70A8B1992195794F00EEB30F /* flexTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A8B1982195794F00EEB30F /* flexTableCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70A8B1842195766400EEB30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A8B1632195765900EEB30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A8B16A2195765A00EEB30F;
+			remoteInfo = flexTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		702B45B321C23BE200840CF7 /* UIMultiLineButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMultiLineButton.h; sourceTree = "<group>"; };
+		702B45B421C23BF500840CF7 /* UIMultiLineButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMultiLineButton.m; sourceTree = "<group>"; };
+		70395CA421C3405600A68C1F /* flexTableCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flexTableCell3.h; sourceTree = "<group>"; };
+		70395CA521C3405600A68C1F /* flexTableCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flexTableCell3.m; sourceTree = "<group>"; };
+		70732F7521C1149B00D6E61C /* flexTableCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flexTableCell2.h; sourceTree = "<group>"; };
+		70732F7621C114B300D6E61C /* flexTableCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexTableCell2.m; sourceTree = "<group>"; };
+		70A8B16B2195765A00EEB30F /* flexTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A8B16E2195765A00EEB30F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70A8B16F2195765A00EEB30F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70A8B1712195765A00EEB30F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70A8B1722195765A00EEB30F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70A8B1752195765A00EEB30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70A8B1772195766300EEB30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70A8B17A2195766300EEB30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70A8B17C2195766300EEB30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A8B17D2195766300EEB30F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70A8B1832195766400EEB30F /* flexTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A8B1872195766400EEB30F /* flexTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexTableViewTests.m; sourceTree = "<group>"; };
+		70A8B1892195766400EEB30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A8B192219576B200EEB30F /* flexTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = flexTableCell.xib; sourceTree = "<group>"; };
+		70A8B194219577F300EEB30F /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		70A8B1952195785900EEB30F /* table.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = table.m; sourceTree = "<group>"; };
+		70A8B1972195793B00EEB30F /* flexTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flexTableCell.h; sourceTree = "<group>"; };
+		70A8B1982195794F00EEB30F /* flexTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexTableCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70A8B1682195765A00EEB30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A8B1802195766400EEB30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70A8B1622195765900EEB30F = {
+			isa = PBXGroup;
+			children = (
+				70395CA421C3405600A68C1F /* flexTableCell3.h */,
+				70395CA521C3405600A68C1F /* flexTableCell3.m */,
+				702B45B421C23BF500840CF7 /* UIMultiLineButton.m */,
+				702B45B321C23BE200840CF7 /* UIMultiLineButton.h */,
+				70732F7621C114B300D6E61C /* flexTableCell2.m */,
+				70732F7521C1149B00D6E61C /* flexTableCell2.h */,
+				70A8B1982195794F00EEB30F /* flexTableCell.m */,
+				70A8B1972195793B00EEB30F /* flexTableCell.h */,
+				70A8B192219576B200EEB30F /* flexTableCell.xib */,
+				70A8B1952195785900EEB30F /* table.m */,
+				70A8B194219577F300EEB30F /* table.h */,
+				70A8B16D2195765A00EEB30F /* flexTableView */,
+				70A8B1862195766400EEB30F /* flexTableViewTests */,
+				70A8B16C2195765A00EEB30F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70A8B16C2195765A00EEB30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70A8B16B2195765A00EEB30F /* flexTableView.app */,
+				70A8B1832195766400EEB30F /* flexTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A8B16D2195765A00EEB30F /* flexTableView */ = {
+			isa = PBXGroup;
+			children = (
+				70A8B16E2195765A00EEB30F /* AppDelegate.h */,
+				70A8B16F2195765A00EEB30F /* AppDelegate.m */,
+				70A8B1712195765A00EEB30F /* ViewController.h */,
+				70A8B1722195765A00EEB30F /* ViewController.m */,
+				70A8B1742195765A00EEB30F /* Main.storyboard */,
+				70A8B1772195766300EEB30F /* Assets.xcassets */,
+				70A8B1792195766300EEB30F /* LaunchScreen.storyboard */,
+				70A8B17C2195766300EEB30F /* Info.plist */,
+				70A8B17D2195766300EEB30F /* main.m */,
+			);
+			path = flexTableView;
+			sourceTree = "<group>";
+		};
+		70A8B1862195766400EEB30F /* flexTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				70A8B1872195766400EEB30F /* flexTableViewTests.m */,
+				70A8B1892195766400EEB30F /* Info.plist */,
+			);
+			path = flexTableViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70A8B16A2195765A00EEB30F /* flexTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A8B18C2195766400EEB30F /* Build configuration list for PBXNativeTarget "flexTableView" */;
+			buildPhases = (
+				70A8B1672195765A00EEB30F /* Sources */,
+				70A8B1682195765A00EEB30F /* Frameworks */,
+				70A8B1692195765A00EEB30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flexTableView;
+			productName = flexTableView;
+			productReference = 70A8B16B2195765A00EEB30F /* flexTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70A8B1822195766400EEB30F /* flexTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A8B18F2195766400EEB30F /* Build configuration list for PBXNativeTarget "flexTableViewTests" */;
+			buildPhases = (
+				70A8B17F2195766400EEB30F /* Sources */,
+				70A8B1802195766400EEB30F /* Frameworks */,
+				70A8B1812195766400EEB30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70A8B1852195766400EEB30F /* PBXTargetDependency */,
+			);
+			name = flexTableViewTests;
+			productName = flexTableViewTests;
+			productReference = 70A8B1832195766400EEB30F /* flexTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70A8B1632195765900EEB30F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.gnway;
+				TargetAttributes = {
+					70A8B16A2195765A00EEB30F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					70A8B1822195766400EEB30F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 70A8B16A2195765A00EEB30F;
+					};
+				};
+			};
+			buildConfigurationList = 70A8B1662195765900EEB30F /* Build configuration list for PBXProject "flexTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70A8B1622195765900EEB30F;
+			productRefGroup = 70A8B16C2195765A00EEB30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70A8B16A2195765A00EEB30F /* flexTableView */,
+				70A8B1822195766400EEB30F /* flexTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70A8B1692195765A00EEB30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A8B17B2195766300EEB30F /* LaunchScreen.storyboard in Resources */,
+				70A8B193219576B200EEB30F /* flexTableCell.xib in Resources */,
+				70A8B1782195766300EEB30F /* Assets.xcassets in Resources */,
+				70A8B1762195765A00EEB30F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A8B1812195766400EEB30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70A8B1672195765A00EEB30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A8B1992195794F00EEB30F /* flexTableCell.m in Sources */,
+				70A8B1732195765A00EEB30F /* ViewController.m in Sources */,
+				70732F7721C114B300D6E61C /* flexTableCell2.m in Sources */,
+				70A8B17E2195766300EEB30F /* main.m in Sources */,
+				70A8B1962195785900EEB30F /* table.m in Sources */,
+				70A8B1702195765A00EEB30F /* AppDelegate.m in Sources */,
+				70395CA621C3405600A68C1F /* flexTableCell3.m in Sources */,
+				702B45B521C23BF500840CF7 /* UIMultiLineButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A8B17F2195766400EEB30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A8B1882195766400EEB30F /* flexTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70A8B1852195766400EEB30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70A8B16A2195765A00EEB30F /* flexTableView */;
+			targetProxy = 70A8B1842195766400EEB30F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70A8B1742195765A00EEB30F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A8B1752195765A00EEB30F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70A8B1792195766300EEB30F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A8B17A2195766300EEB30F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70A8B18A2195766400EEB30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70A8B18B2195766400EEB30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70A8B18D2195766400EEB30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGMZ276XFC;
+				INFOPLIST_FILE = flexTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnway.flexTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70A8B18E2195766400EEB30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGMZ276XFC;
+				INFOPLIST_FILE = flexTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnway.flexTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70A8B1902195766400EEB30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGMZ276XFC;
+				INFOPLIST_FILE = flexTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnway.flexTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexTableView.app/flexTableView";
+			};
+			name = Debug;
+		};
+		70A8B1912195766400EEB30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGMZ276XFC;
+				INFOPLIST_FILE = flexTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnway.flexTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexTableView.app/flexTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70A8B1662195765900EEB30F /* Build configuration list for PBXProject "flexTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A8B18A2195766400EEB30F /* Debug */,
+				70A8B18B2195766400EEB30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A8B18C2195766400EEB30F /* Build configuration list for PBXNativeTarget "flexTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A8B18D2195766400EEB30F /* Debug */,
+				70A8B18E2195766400EEB30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A8B18F2195766400EEB30F /* Build configuration list for PBXNativeTarget "flexTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A8B1902195766400EEB30F /* Debug */,
+				70A8B1912195766400EEB30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70A8B1632195765900EEB30F /* Project object */;
+}

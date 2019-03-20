@@ -16,6 +16,7 @@
 		704D7F4E215A177500C2E582 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704D7F4B215A177500C2E582 /* tableViewController.m */; };
 		704D7F4F215A177500C2E582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704D7F4C215A177500C2E582 /* Assets.xcassets */; };
 		704D7F52215A1DDF00C2E582 /* tfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 704D7F51215A1B9500C2E582 /* tfVC.m */; };
+		7050452D21704DCA007FDE29 /* tabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050452C21704DC9007FDE29 /* tabbar.m */; };
 		705DB166214A51C700F7E409 /* ATransitioningPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 705DB164214A51C700F7E409 /* ATransitioningPop.m */; };
 		705DB169214A58B600F7E409 /* interactiveAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 705DB168214A58B600F7E409 /* interactiveAT.m */; };
 		70728BF82152331100CF9B41 /* rightMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70728BF72152331100CF9B41 /* rightMenuVC.m */; };
@@ -43,6 +44,8 @@
 		704D7F4C215A177500C2E582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704D7F50215A1B8800C2E582 /* tfVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tfVC.h; sourceTree = "<group>"; };
 		704D7F51215A1B9500C2E582 /* tfVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tfVC.m; sourceTree = "<group>"; };
+		7050452B21704DB7007FDE29 /* tabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbar.h; sourceTree = "<group>"; };
+		7050452C21704DC9007FDE29 /* tabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbar.m; sourceTree = "<group>"; };
 		705DB164214A51C700F7E409 /* ATransitioningPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATransitioningPop.m; sourceTree = "<group>"; };
 		705DB165214A51C700F7E409 /* ATransitioningPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATransitioningPop.h; sourceTree = "<group>"; };
 		705DB167214A587900F7E409 /* interactiveAT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interactiveAT.h; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				70728BF72152331100CF9B41 /* rightMenuVC.m */,
 				70728C0221538CB300CF9B41 /* tableView.h */,
 				70728C0321538CD300CF9B41 /* tableView.m */,
+				7050452B21704DB7007FDE29 /* tabbar.h */,
+				7050452C21704DC9007FDE29 /* tabbar.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				70728BF82152331100CF9B41 /* rightMenuVC.m in Sources */,
 				700C19FF21420D9D0089DD9E /* AppDelegate.m in Sources */,
 				704D7F4E215A177500C2E582 /* tableViewController.m in Sources */,
+				7050452D21704DCA007FDE29 /* tabbar.m in Sources */,
 				705DB169214A58B600F7E409 /* interactiveAT.m in Sources */,
 				70D4E10F2146163200C3EED2 /* testVC.m in Sources */,
 				70728C012153753400CF9B41 /* leftMenuVC.m in Sources */,
