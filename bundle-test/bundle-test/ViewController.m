@@ -30,5 +30,7 @@
 //  NSString *imagePath = [bundle pathForResource:@"1" ofType:@"png"];
   NSString *imagePath = @"myBundle.bundle/1.png";
   UIImage *img = [UIImage imageNamed:imagePath];
+
 }
+
 @end
